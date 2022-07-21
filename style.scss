@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Barlow:wght@600&family=Commissioner:wght@400;500;700&family=DM+Sans:wght@400;700&family=DM+Serif+Display&family=Epilogue:wght@500;700&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@300;500;700&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=Libre+Franklin:wght@300;600;700&family=Manrope:wght@600;800&family=Montserrat:wght@500;700&family=Overpass:wght@300;600&family=Poppins:wght@400;500;600;700&family=Rubik:wght@300;400;500&display=swap');
+
+$DarkBlue: hsl(240, 38%, 20%);
+$GrayishBlue: hsl(240, 18%, 77%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+@media only screen and (max-width: 375px) {
+
+        //////   TANYA  /////////
+
+    .tanya {
+        background-image: url(/images/pattern-bg.svg) , url(/images/pattern-quotes.svg);
+        background-position: 17px 30px , 150px 380px;
+        background-size: 90% , 20% ;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 60px 30px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .tanya-image {
+        box-shadow: 10px 10px 30px 0px rgb(200, 200, 200);
+        width: 260px;
+        margin-bottom: 30%;
+        border-radius: 15px;
+    }
+
+    .arrows-tanya {
+        display: flex;
+        position: absolute;
+        top: 38.5%;
+        left: 40%;
+    }
+
+    .left-arrow {
+        border-radius: 50px 0 0 50px;
+        background-color: #fff;
+        padding: 8px 15px 8px 10px;
+    }
+
+    .right-arrow {
+        margin-left: -3px;
+        border-radius: 0 50px 50px 0 ;
+        background-color: #fff;
+        padding: 8px 10px 8px 15px;
+    }
+
+    .paragraph {
+        color: hsl(240, 12%, 37%);
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 35px;
+    }
+
+    .name {
+        h4 {
+            color: $DarkBlue;
+            margin-bottom: 7px;
+        }
+        p {
+            color: $GrayishBlue;
+        }
+    }
+
+          //////// JOHN  ///////////
+
+    
+    
+   .john {
+        visibility: hidden;
+        background-color: #fff;
+        top: 0;
+        position: absolute;
+        background-image: url(/images/pattern-bg.svg) , url(/images/pattern-quotes.svg);
+        background-position: 17px 30px , 150px 380px;
+        background-size: 90% , 20% ;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 60px 30px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .john-image {
+        box-shadow: -10px 0px 30px 0px rgb(200, 200, 200);
+        width: 260px;
+        margin-bottom: 30%;
+        border-radius: 15px;
+    }
+
+    .arrows-john {
+        display: flex;
+        position: absolute;
+        top: 41.5%;
+        left: 40%;
+    }
+
+    .left-arrow {
+        border-radius: 50px 0 0 50px;
+        background-color: #fff;
+        padding: 8px 15px 8px 10px;
+    }
+
+    .right-arrow {
+        margin-left: -3px;
+        border-radius: 0 50px 50px 0 ;
+        background-color: #fff;
+        padding: 8px 10px 8px 15px;
+    }
+
+    .paragraph {
+        color: hsl(240, 12%, 37%);
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 35px;
+    }
+
+    .name {
+        h4 {
+            color: $DarkBlue;
+            margin-bottom: 7px;
+        }
+        p {
+            color: $GrayishBlue;
+        }
+    }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    body {
+        font-size: 32px;
+        font-weight: 300;
+    }
+
+    .tanya {
+        background-image: url(/images/pattern-bg.svg) , url(/images/pattern-quotes.svg);
+        background-position: 670px 38px , 260px 180px;
+        //background-size: 90% , 20% ;
+        background-repeat: no-repeat;
+        padding: 100px  160px;
+        display: flex;
+        position: relative;
+
+        .tanya-image {
+            margin-left: 107%;
+            border-radius: 15px;
+        }
+    }
+
+    .text {
+        width: 650px;
+        position: absolute;
+        padding-top: 140px;
+
+        .paragraph {
+            margin-bottom: 40px;
+            color: $DarkBlue;
+            line-height: 45px;
+        }
+
+        .name {
+            display: flex;
+            color: $DarkBlue;
+            font-size: 25px;
+
+            p {
+                color: $GrayishBlue;
+                margin-left: 15px;
+            }
+        }
+    }
+
+    .arrows-tanya {
+        display: flex;
+        position: absolute;
+        top: 83.5%;
+        left: 55%;
+    }
+
+    .left-arrow {
+        box-shadow: 0px 10px 18px 0px rgb(200, 200, 200);
+        border-radius: 50px 0 0 50px;
+        background-color: #fff;
+        padding: 12px 15px 12px 20px;
+    }
+
+    .right-arrow {
+        box-shadow: 10px 10px 18px 0px rgb(200, 200, 200);
+        margin-left: -3px;
+        border-radius: 0 50px 50px 0 ;
+        background-color: #fff;
+        padding: 12px 10px 12px 20px;
+    }
+
+    ////////   JOHN   //////// 
+    
+    .john {
+        visibility: hidden;
+        width: 1440px;
+        top: 0;
+        position: absolute;
+        background-image: url(/images/pattern-bg.svg) , url(/images/pattern-quotes.svg);
+        background-position: 650px 34px  , 260px 180px;
+        background-size: 50% , 10% ;
+        background-repeat: no-repeat;
+        padding: 100px  160px;
+        display: flex;
+
+        .john-image {
+            margin-left: 107%;
+            border-radius: 15px;
+        }
+    }
+
+    .text {
+        width: 634px;
+        position: absolute;
+        padding-top: 140px;
+
+        .paragraph {
+            margin-bottom: 40px;
+            color: $DarkBlue;
+            line-height: 45px;
+        }
+
+        .name {
+            display: flex;
+            color: $DarkBlue;
+            font-size: 25px;
+
+            p {
+                color: $GrayishBlue;
+                margin-left: 15px;
+            }
+        }
+    }
+
+    .arrows-john {
+        display: flex;
+        position: absolute;
+        top: 83%;
+        left: 55%;
+    }
+
+    .left-arrow {
+        box-shadow: 0px 7px 18px 0px rgb(200, 200, 200);
+        border-radius: 50px 0 0 50px;
+        background-color: #fff;
+        padding: 12px 15px 12px 20px;
+    }
+
+    .right-arrow {
+        box-shadow: 10px 7px 18px 0px rgb(220, 220, 220);
+        margin-left: -3px;
+        border-radius: 0 50px 50px 0 ;
+        background-color: #fff;
+        padding: 12px 10px 12px 20px;
+    }
+
+}
